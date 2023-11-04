@@ -1,0 +1,44 @@
+name: Continuous Integration
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - "releases/*"
+
+jobs:
+  licenses-summary:
+    name: Licenses summary
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        id: checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Yarn
+        id: setup-yarn
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: yarn
+
+      - name: Set yarn version
+        id: set-yarn-version
+        run: yarn set version 3.x
+
+      - name: Install Dependencies
+        id: yarn-install
+        run: yarn install
+
+      - name: Get Licenses
+        id: get-licenses
+        run: echo licenses=$(yarn licenses list --json | yarn ndjson-reduce) >> $GITHUB_OUTPUT
+
+
+      - name: Create Licenses Summary
+        id: create-summary
+        uses: ./
+        with:
+          licenses: ${{ steps.get-licenses.outputs.licenses }}
