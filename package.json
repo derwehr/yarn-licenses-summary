@@ -1,0 +1,58 @@
+{
+  "name": "yarn-licenses-summary",
+  "description": "Creates a GitHub Workflow summary listing all licenses used in the project",
+  "version": "0.0.1",
+  "author": "Thomas Wehr",
+  "private": true,
+  "homepage": "https://github.com/derwehr/yarn-licenses-summary/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derwehr/yarn-licenses-summary.git"
+  },
+  "bugs": {
+    "url": "https://github.com/derwehr/yarn-licenses-summary/issues"
+  },
+  "keywords": [
+    "Yarn",
+    "Summary",
+    "CI",
+    "Actions"
+  ],
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "bundle": "yarn run format:write && yarn run package",
+    "format:write": "prettier --write **/*.js",
+    "format:check": "prettier --check **/*.js",
+    "lint": "yarn run eslint .",
+    "package": "ncc build src/index.js --license licenses.txt",
+    "package:watch": "yarn run package -- --watch",
+    "all": "yarn run format:write && yarn run lint && yarn run package"
+  },
+  "license": "MIT",
+  "eslintConfig": {
+    "extends": "./.github/linters/.eslintrc.yml"
+  },
+  "dependencies": {
+    "@actions/core": "^1.10.1",
+    "eslint-plugin-import": "^2.29.0",
+    "ndjson-cli": "^0.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/eslint-parser": "^7.22.15",
+    "@babel/preset-env": "^7.23.2",
+    "@vercel/ncc": "^0.38.1",
+    "eslint": "^8.53.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-github": "^4.10.1",
+    "eslint-plugin-prettier": "^5.0.1",
+    "make-coverage-badge": "^1.2.0",
+    "prettier": "^3.0.3"
+  },
+  "packageManager": "yarn@3.6.4"
+}
