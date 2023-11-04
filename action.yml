@@ -2,7 +2,9 @@ name: 'Yarn licenses summary'
 description: 'Create a summary of all licenses used in your project.'
 author: 'Thomas Wehr'
 
-# Define your inputs here.
+branding:
+  icon: table
+
 inputs:
   licenses:
     description: 'The output of yarn licenses list --json'
