@@ -3,8 +3,24 @@
 
 ![Licenses Summary](./licenses-summary-screenshot.png)
 
-# Usage
+# requirements
+This action requires [ndjson-cli](https://github.com/mbostock/ndjson-cli). You can either add it to your project, via `yarn add ndjson-cli` or you can add it to your workflow by adding the below lines before using `yarn install`. (You can't install with a `--frozen lockfile` then)
+
 ```yaml
+- name: Add njson-cli
+  id: add-njson-cli
+  run: yarn add ndjson-cli
+```
+
+# Usage
+Below is an example of how to use this action in a workflow.
+
+```yaml
+name: Licenses Summary
+
+# Controls when the action will run.
+on: [push, pull_request]
+
 jobs:
   licenses-summary:
     name: Licenses summary
@@ -32,7 +48,7 @@ jobs:
 
       - name: Create Licenses Summary
         id: create-summary
-        uses: ./
+        uses: derwehr/yarn-licenses-summary@v1
         with:
           licenses: ${{ steps.get-licenses.outputs.licenses }}
 ```
