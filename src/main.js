@@ -20,7 +20,17 @@ async function run() {
         const packageName = key.startsWith('@')
           ? `@${key.split('@')[1]}`
           : key.split('@')[0]
-        const url = license.children[key].children.vendorUrl
+        let url = license.children[key].children.vendorUrl
+
+        if (!url) {
+          if (license.children[key].children.url) {
+            url = license.children[key].children.url
+              .split('git+')[1]
+              .split('.git')[0]
+          } else {
+            url = ''
+          }
+        }
 
         const packageLink = `<a href="${url}">${packageName}</a>`
 
