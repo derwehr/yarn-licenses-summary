@@ -28,11 +28,11 @@ async function run() {
               .split('git+')[1]
               .split('.git')[0]
           } else {
-            url = ''
+            url = undefined
           }
         }
 
-        const packageLink = `<a href="${url}">${packageName}</a>`
+        const packageLink = url !== undefined ? `<a href="${url}">${packageName}</a>` : packageName
 
         return packageLink
       })
