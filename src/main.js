@@ -25,14 +25,21 @@ async function run() {
         if (!url) {
           if (license.children[key].children.url) {
             url = license.children[key].children.url
-              .split('git+')[1]
-              .split('.git')[0]
+            if (url.startsWith('git+')) {
+              url = url.split('git+')[1]
+            }
+            if (url.endsWith('.git')) {
+              url = url.split('.git')[0]
+            }
           } else {
             url = undefined
           }
         }
 
-        const packageLink = url !== undefined ? `<a href="${url}">${packageName}</a>` : packageName
+        const packageLink =
+          url !== undefined && url !== '.'
+            ? `<a href="${url}">${packageName}</a>`
+            : packageName
 
         return packageLink
       })
