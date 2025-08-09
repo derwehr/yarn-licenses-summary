@@ -36,7 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "virtual:0eab51679f80486857af775831549af97424b1c68fbac98e7732a77530b85c5bdc7d95138bb7f47c9ac65eaddc06440f77ceaba67d6cd39669ca4fd61b74ba07#npm:9.33.0"],\
             ["eslint-plugin-eslint-comments", "virtual:0eab51679f80486857af775831549af97424b1c68fbac98e7732a77530b85c5bdc7d95138bb7f47c9ac65eaddc06440f77ceaba67d6cd39669ca4fd61b74ba07#npm:3.2.0"],\
             ["eslint-plugin-import", "virtual:0eab51679f80486857af775831549af97424b1c68fbac98e7732a77530b85c5bdc7d95138bb7f47c9ac65eaddc06440f77ceaba67d6cd39669ca4fd61b74ba07#npm:2.32.0"],\
-            ["eslint-plugin-prettier", "virtual:0eab51679f80486857af775831549af97424b1c68fbac98e7732a77530b85c5bdc7d95138bb7f47c9ac65eaddc06440f77ceaba67d6cd39669ca4fd61b74ba07#npm:5.5.1"],\
+            ["eslint-plugin-prettier", "virtual:0eab51679f80486857af775831549af97424b1c68fbac98e7732a77530b85c5bdc7d95138bb7f47c9ac65eaddc06440f77ceaba67d6cd39669ca4fd61b74ba07#npm:5.5.4"],\
             ["make-coverage-badge", "npm:1.2.0"],\
             ["ndjson-cli", "npm:0.3.1"],\
             ["prettier", "npm:3.6.2"]\
@@ -3964,17 +3964,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["eslint-plugin-prettier", [\
-        ["npm:5.5.1", {\
-          "packageLocation": "./.yarn/cache/eslint-plugin-prettier-npm-5.5.1-24fef9f1f1-913ecebfea.zip/node_modules/eslint-plugin-prettier/",\
+        ["npm:5.5.4", {\
+          "packageLocation": "./.yarn/cache/eslint-plugin-prettier-npm-5.5.4-401c52477f-0dd05ed850.zip/node_modules/eslint-plugin-prettier/",\
           "packageDependencies": [\
-            ["eslint-plugin-prettier", "npm:5.5.1"]\
+            ["eslint-plugin-prettier", "npm:5.5.4"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:0eab51679f80486857af775831549af97424b1c68fbac98e7732a77530b85c5bdc7d95138bb7f47c9ac65eaddc06440f77ceaba67d6cd39669ca4fd61b74ba07#npm:5.5.1", {\
-          "packageLocation": "./.yarn/__virtual__/eslint-plugin-prettier-virtual-9ee2509167/0/cache/eslint-plugin-prettier-npm-5.5.1-24fef9f1f1-913ecebfea.zip/node_modules/eslint-plugin-prettier/",\
+        ["virtual:0eab51679f80486857af775831549af97424b1c68fbac98e7732a77530b85c5bdc7d95138bb7f47c9ac65eaddc06440f77ceaba67d6cd39669ca4fd61b74ba07#npm:5.5.4", {\
+          "packageLocation": "./.yarn/__virtual__/eslint-plugin-prettier-virtual-777a8d640f/0/cache/eslint-plugin-prettier-npm-5.5.4-401c52477f-0dd05ed850.zip/node_modules/eslint-plugin-prettier/",\
           "packageDependencies": [\
-            ["eslint-plugin-prettier", "virtual:0eab51679f80486857af775831549af97424b1c68fbac98e7732a77530b85c5bdc7d95138bb7f47c9ac65eaddc06440f77ceaba67d6cd39669ca4fd61b74ba07#npm:5.5.1"],\
+            ["eslint-plugin-prettier", "virtual:0eab51679f80486857af775831549af97424b1c68fbac98e7732a77530b85c5bdc7d95138bb7f47c9ac65eaddc06440f77ceaba67d6cd39669ca4fd61b74ba07#npm:5.5.4"],\
             ["@types/eslint", null],\
             ["@types/eslint-config-prettier", null],\
             ["@types/prettier", null],\
@@ -6819,7 +6819,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "virtual:0eab51679f80486857af775831549af97424b1c68fbac98e7732a77530b85c5bdc7d95138bb7f47c9ac65eaddc06440f77ceaba67d6cd39669ca4fd61b74ba07#npm:9.33.0"],\
             ["eslint-plugin-eslint-comments", "virtual:0eab51679f80486857af775831549af97424b1c68fbac98e7732a77530b85c5bdc7d95138bb7f47c9ac65eaddc06440f77ceaba67d6cd39669ca4fd61b74ba07#npm:3.2.0"],\
             ["eslint-plugin-import", "virtual:0eab51679f80486857af775831549af97424b1c68fbac98e7732a77530b85c5bdc7d95138bb7f47c9ac65eaddc06440f77ceaba67d6cd39669ca4fd61b74ba07#npm:2.32.0"],\
-            ["eslint-plugin-prettier", "virtual:0eab51679f80486857af775831549af97424b1c68fbac98e7732a77530b85c5bdc7d95138bb7f47c9ac65eaddc06440f77ceaba67d6cd39669ca4fd61b74ba07#npm:5.5.1"],\
+            ["eslint-plugin-prettier", "virtual:0eab51679f80486857af775831549af97424b1c68fbac98e7732a77530b85c5bdc7d95138bb7f47c9ac65eaddc06440f77ceaba67d6cd39669ca4fd61b74ba07#npm:5.5.4"],\
             ["make-coverage-badge", "npm:1.2.0"],\
             ["ndjson-cli", "npm:0.3.1"],\
             ["prettier", "npm:3.6.2"]\
