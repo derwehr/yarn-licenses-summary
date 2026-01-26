@@ -32,7 +32,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/core", "npm:7.28.3"],\
             ["@babel/eslint-parser", "virtual:0eab51679f80486857af775831549af97424b1c68fbac98e7732a77530b85c5bdc7d95138bb7f47c9ac65eaddc06440f77ceaba67d6cd39669ca4fd61b74ba07#npm:7.28.0"],\
             ["@babel/preset-env", "virtual:0eab51679f80486857af775831549af97424b1c68fbac98e7732a77530b85c5bdc7d95138bb7f47c9ac65eaddc06440f77ceaba67d6cd39669ca4fd61b74ba07#npm:7.28.5"],\
-            ["@vercel/ncc", "npm:0.38.3"],\
+            ["@vercel/ncc", "npm:0.38.4"],\
             ["eslint", "virtual:0eab51679f80486857af775831549af97424b1c68fbac98e7732a77530b85c5bdc7d95138bb7f47c9ac65eaddc06440f77ceaba67d6cd39669ca4fd61b74ba07#npm:9.34.0"],\
             ["eslint-plugin-eslint-comments", "virtual:0eab51679f80486857af775831549af97424b1c68fbac98e7732a77530b85c5bdc7d95138bb7f47c9ac65eaddc06440f77ceaba67d6cd39669ca4fd61b74ba07#npm:3.2.0"],\
             ["eslint-plugin-import", "virtual:0eab51679f80486857af775831549af97424b1c68fbac98e7732a77530b85c5bdc7d95138bb7f47c9ac65eaddc06440f77ceaba67d6cd39669ca4fd61b74ba07#npm:2.32.0"],\
@@ -2812,10 +2812,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@vercel/ncc", [\
-        ["npm:0.38.3", {\
-          "packageLocation": "./.yarn/cache/@vercel-ncc-npm-0.38.3-cb2c08b26f-172ff37f17.zip/node_modules/@vercel/ncc/",\
+        ["npm:0.38.4", {\
+          "packageLocation": "./.yarn/cache/@vercel-ncc-npm-0.38.4-c7f6d7c3e6-3d6b9997ad.zip/node_modules/@vercel/ncc/",\
           "packageDependencies": [\
-            ["@vercel/ncc", "npm:0.38.3"],\
+            ["@vercel/ncc", "npm:0.38.4"],\
             ["node-gyp", "npm:10.0.1"]\
           ],\
           "linkType": "HARD"\
@@ -6951,7 +6951,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/core", "npm:7.28.3"],\
             ["@babel/eslint-parser", "virtual:0eab51679f80486857af775831549af97424b1c68fbac98e7732a77530b85c5bdc7d95138bb7f47c9ac65eaddc06440f77ceaba67d6cd39669ca4fd61b74ba07#npm:7.28.0"],\
             ["@babel/preset-env", "virtual:0eab51679f80486857af775831549af97424b1c68fbac98e7732a77530b85c5bdc7d95138bb7f47c9ac65eaddc06440f77ceaba67d6cd39669ca4fd61b74ba07#npm:7.28.5"],\
-            ["@vercel/ncc", "npm:0.38.3"],\
+            ["@vercel/ncc", "npm:0.38.4"],\
             ["eslint", "virtual:0eab51679f80486857af775831549af97424b1c68fbac98e7732a77530b85c5bdc7d95138bb7f47c9ac65eaddc06440f77ceaba67d6cd39669ca4fd61b74ba07#npm:9.34.0"],\
             ["eslint-plugin-eslint-comments", "virtual:0eab51679f80486857af775831549af97424b1c68fbac98e7732a77530b85c5bdc7d95138bb7f47c9ac65eaddc06440f77ceaba67d6cd39669ca4fd61b74ba07#npm:3.2.0"],\
             ["eslint-plugin-import", "virtual:0eab51679f80486857af775831549af97424b1c68fbac98e7732a77530b85c5bdc7d95138bb7f47c9ac65eaddc06440f77ceaba67d6cd39669ca4fd61b74ba07#npm:2.32.0"],\
