@@ -28,7 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@actions/core", "npm:1.11.1"],\
+            ["@actions/core", "npm:3.0.0"],\
             ["@babel/core", "npm:7.28.6"],\
             ["@babel/eslint-parser", "virtual:0eab51679f80486857af775831549af97424b1c68fbac98e7732a77530b85c5bdc7d95138bb7f47c9ac65eaddc06440f77ceaba67d6cd39669ca4fd61b74ba07#npm:7.28.6"],\
             ["@babel/preset-env", "virtual:0eab51679f80486857af775831549af97424b1c68fbac98e7732a77530b85c5bdc7d95138bb7f47c9ac65eaddc06440f77ceaba67d6cd39669ca4fd61b74ba07#npm:7.28.6"],\
@@ -54,42 +54,42 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@actions/core", [\
-        ["npm:1.11.1", {\
-          "packageLocation": "./.yarn/cache/@actions-core-npm-1.11.1-ad090a2026-9ac7a3e0b4.zip/node_modules/@actions/core/",\
+        ["npm:3.0.0", {\
+          "packageLocation": "./.yarn/cache/@actions-core-npm-3.0.0-fbea614863-79d472a597.zip/node_modules/@actions/core/",\
           "packageDependencies": [\
-            ["@actions/core", "npm:1.11.1"],\
-            ["@actions/exec", "npm:1.1.1"],\
-            ["@actions/http-client", "npm:2.2.0"]\
+            ["@actions/core", "npm:3.0.0"],\
+            ["@actions/exec", "npm:3.0.0"],\
+            ["@actions/http-client", "npm:4.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@actions/exec", [\
-        ["npm:1.1.1", {\
-          "packageLocation": "./.yarn/cache/@actions-exec-npm-1.1.1-90973d2f96-d976e66dd5.zip/node_modules/@actions/exec/",\
+        ["npm:3.0.0", {\
+          "packageLocation": "./.yarn/cache/@actions-exec-npm-3.0.0-fff0325d53-8a8c2d2808.zip/node_modules/@actions/exec/",\
           "packageDependencies": [\
-            ["@actions/exec", "npm:1.1.1"],\
-            ["@actions/io", "npm:1.1.3"]\
+            ["@actions/exec", "npm:3.0.0"],\
+            ["@actions/io", "npm:3.0.2"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@actions/http-client", [\
-        ["npm:2.2.0", {\
-          "packageLocation": "./.yarn/cache/@actions-http-client-npm-2.2.0-5cded732ee-075fc21e8c.zip/node_modules/@actions/http-client/",\
+        ["npm:4.0.0", {\
+          "packageLocation": "./.yarn/cache/@actions-http-client-npm-4.0.0-7a74e845d8-a3ee16f3b3.zip/node_modules/@actions/http-client/",\
           "packageDependencies": [\
-            ["@actions/http-client", "npm:2.2.0"],\
+            ["@actions/http-client", "npm:4.0.0"],\
             ["tunnel", "npm:0.0.6"],\
-            ["undici", "npm:5.27.2"]\
+            ["undici", "npm:6.23.0"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@actions/io", [\
-        ["npm:1.1.3", {\
-          "packageLocation": "./.yarn/cache/@actions-io-npm-1.1.3-82d1cf012b-42841ac2b8.zip/node_modules/@actions/io/",\
+        ["npm:3.0.2", {\
+          "packageLocation": "./.yarn/cache/@actions-io-npm-3.0.2-1b05cb812b-69c1d58f2b.zip/node_modules/@actions/io/",\
           "packageDependencies": [\
-            ["@actions/io", "npm:1.1.3"]\
+            ["@actions/io", "npm:3.0.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2616,15 +2616,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@eslint/plugin-kit", "npm:0.4.1"],\
             ["@eslint/core", "npm:0.17.0"],\
             ["levn", "npm:0.4.1"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["@fastify/busboy", [\
-        ["npm:2.0.0", {\
-          "packageLocation": "./.yarn/cache/@fastify-busboy-npm-2.0.0-c6baf48382-41879937ce.zip/node_modules/@fastify/busboy/",\
-          "packageDependencies": [\
-            ["@fastify/busboy", "npm:2.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -6770,11 +6761,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["undici", [\
-        ["npm:5.27.2", {\
-          "packageLocation": "./.yarn/cache/undici-npm-5.27.2-141c109c0a-22bbdd7637.zip/node_modules/undici/",\
+        ["npm:6.23.0", {\
+          "packageLocation": "./.yarn/cache/undici-npm-6.23.0-7da0e26771-f095392033.zip/node_modules/undici/",\
           "packageDependencies": [\
-            ["undici", "npm:5.27.2"],\
-            ["@fastify/busboy", "npm:2.0.0"]\
+            ["undici", "npm:6.23.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -7043,7 +7033,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["yarn-licenses-summary", "workspace:."],\
-            ["@actions/core", "npm:1.11.1"],\
+            ["@actions/core", "npm:3.0.0"],\
             ["@babel/core", "npm:7.28.6"],\
             ["@babel/eslint-parser", "virtual:0eab51679f80486857af775831549af97424b1c68fbac98e7732a77530b85c5bdc7d95138bb7f47c9ac65eaddc06440f77ceaba67d6cd39669ca4fd61b74ba07#npm:7.28.6"],\
             ["@babel/preset-env", "virtual:0eab51679f80486857af775831549af97424b1c68fbac98e7732a77530b85c5bdc7d95138bb7f47c9ac65eaddc06440f77ceaba67d6cd39669ca4fd61b74ba07#npm:7.28.6"],\
