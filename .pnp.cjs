@@ -39,7 +39,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-prettier", "virtual:0eab51679f80486857af775831549af97424b1c68fbac98e7732a77530b85c5bdc7d95138bb7f47c9ac65eaddc06440f77ceaba67d6cd39669ca4fd61b74ba07#npm:5.5.5"],\
             ["make-coverage-badge", "npm:1.2.0"],\
             ["ndjson-cli", "npm:0.3.1"],\
-            ["prettier", "npm:3.8.1"]\
+            ["prettier", "npm:3.8.2"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -4096,7 +4096,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/prettier", null],\
             ["eslint", "virtual:0eab51679f80486857af775831549af97424b1c68fbac98e7732a77530b85c5bdc7d95138bb7f47c9ac65eaddc06440f77ceaba67d6cd39669ca4fd61b74ba07#npm:10.0.2"],\
             ["eslint-config-prettier", null],\
-            ["prettier", "npm:3.8.1"],\
+            ["prettier", "npm:3.8.2"],\
             ["prettier-linter-helpers", "npm:1.0.1"],\
             ["synckit", "npm:0.11.12"]\
           ],\
@@ -5767,10 +5767,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["prettier", [\
-        ["npm:3.8.1", {\
-          "packageLocation": "./.yarn/unplugged/prettier-npm-3.8.1-04022a855f/node_modules/prettier/",\
+        ["npm:3.8.2", {\
+          "packageLocation": "./.yarn/unplugged/prettier-npm-3.8.2-9004f3b431/node_modules/prettier/",\
           "packageDependencies": [\
-            ["prettier", "npm:3.8.1"]\
+            ["prettier", "npm:3.8.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -6896,7 +6896,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-prettier", "virtual:0eab51679f80486857af775831549af97424b1c68fbac98e7732a77530b85c5bdc7d95138bb7f47c9ac65eaddc06440f77ceaba67d6cd39669ca4fd61b74ba07#npm:5.5.5"],\
             ["make-coverage-badge", "npm:1.2.0"],\
             ["ndjson-cli", "npm:0.3.1"],\
-            ["prettier", "npm:3.8.1"]\
+            ["prettier", "npm:3.8.2"]\
           ],\
           "linkType": "SOFT"\
         }]\
