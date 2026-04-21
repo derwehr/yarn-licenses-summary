@@ -28,7 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@actions/core", "npm:3.0.0"],\
+            ["@actions/core", "npm:3.0.1"],\
             ["@babel/core", "npm:7.29.0"],\
             ["@babel/eslint-parser", "virtual:0eab51679f80486857af775831549af97424b1c68fbac98e7732a77530b85c5bdc7d95138bb7f47c9ac65eaddc06440f77ceaba67d6cd39669ca4fd61b74ba07#npm:7.28.6"],\
             ["@babel/preset-env", "virtual:0eab51679f80486857af775831549af97424b1c68fbac98e7732a77530b85c5bdc7d95138bb7f47c9ac65eaddc06440f77ceaba67d6cd39669ca4fd61b74ba07#npm:7.29.0"],\
@@ -54,10 +54,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@actions/core", [\
-        ["npm:3.0.0", {\
-          "packageLocation": "./.yarn/cache/@actions-core-npm-3.0.0-fbea614863-79d472a597.zip/node_modules/@actions/core/",\
+        ["npm:3.0.1", {\
+          "packageLocation": "./.yarn/cache/@actions-core-npm-3.0.1-aac60a1c20-4f29321d86.zip/node_modules/@actions/core/",\
           "packageDependencies": [\
-            ["@actions/core", "npm:3.0.0"],\
+            ["@actions/core", "npm:3.0.1"],\
             ["@actions/exec", "npm:3.0.0"],\
             ["@actions/http-client", "npm:4.0.0"]\
           ],\
@@ -6885,7 +6885,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["yarn-licenses-summary", "workspace:."],\
-            ["@actions/core", "npm:3.0.0"],\
+            ["@actions/core", "npm:3.0.1"],\
             ["@babel/core", "npm:7.29.0"],\
             ["@babel/eslint-parser", "virtual:0eab51679f80486857af775831549af97424b1c68fbac98e7732a77530b85c5bdc7d95138bb7f47c9ac65eaddc06440f77ceaba67d6cd39669ca4fd61b74ba07#npm:7.28.6"],\
             ["@babel/preset-env", "virtual:0eab51679f80486857af775831549af97424b1c68fbac98e7732a77530b85c5bdc7d95138bb7f47c9ac65eaddc06440f77ceaba67d6cd39669ca4fd61b74ba07#npm:7.29.0"],\
